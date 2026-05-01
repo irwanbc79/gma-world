@@ -1,0 +1,197 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "services": "Layanan",
+    "sectors": "Sektor",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Hubungi Kami",
+    "admin": "Admin",
+    "langLabel": "Bahasa"
+  },
+  "hero": {
+    "location": "Medan, Sumatera Utara — Est. 2024",
+    "badge": "NIB 0711240094152 · PMDN · OSS Verified · API-P Active",
+    "title1": "Integrated",
+    "title2": "Trading &",
+    "title3": "Maritime Group",
+    "desc": "PT. Geya Mora Agung — satu mitra untuk perdagangan besar komoditas, industri & reparasi kapal, pergudangan, dan konstruksi gedung di Sumatera Utara.",
+    "cta1": "Mulai Kerjasama",
+    "cta2": "Lihat Layanan",
+    "stats": {
+      "kbli": "Bidang Usaha KBLI",
+      "sectors": "Sektor Industri",
+      "contact": "Kontak Terintegrasi"
+    },
+    "portBelawan": "Pelabuhan Belawan",
+    "airportKNO": "Bandara Kualanamu"
+  },
+  "about": {
+    "overline": "Tentang Perusahaan",
+    "title": "Satu Entitas, Lima Kekuatan Industri",
+    "p1": "PT. Geya Mora Agung beroperasi di jantung kawasan perdagangan Belawan dan Selat Malaka. Kami mengintegrasikan perdagangan komoditas, logistik maritim, pergudangan, industri kapal, dan konstruksi dalam satu entitas bisnis yang solid dan berlisensi penuh.",
+    "p2": "Berlokasi strategis di Gaharu, Medan Timur — didukung legalitas OSS lengkap termasuk API-P dan akses kepabeanan DJBC untuk aktivitas impor-ekspor.",
+    "checks": [
+      "Legalitas OSS Lengkap",
+      "API-P Impor Aktif",
+      "Akses Kepabeanan DJBC",
+      "PMDN Terdaftar",
+      "12 KBLI Aktif",
+      "BPJS Tenaga Kerja"
+    ],
+    "cta": "Diskusi Sekarang",
+    "yearFounded": "Tahun Berdiri",
+    "nibLabel": "Nomor Induk Berusaha"
+  },
+  "services": {
+    "overline": "Layanan Utama",
+    "title": "Portofolio Komprehensif",
+    "desc": "Dari komoditas pertanian hingga infrastruktur maritim — GMA adalah mitra terintegrasi yang menjawab seluruh kebutuhan bisnis di Sumatera Utara.",
+    "items": [
+      { "name": "Perdagangan Besar Komoditas", "kbli": "KBLI 46202 · 46209 · 46319", "text": "Buah berminyak, produk agrikultur, hasil hewan, dan bahan pangan untuk pasar lokal dan ekspor." },
+      { "name": "Industri & Reparasi Kapal", "kbli": "KBLI 30111 · 33151", "text": "Pembangunan kapal, perahu, dan bangunan terapung. Reparasi dan pemeliharaan armada laut profesional." },
+      { "name": "Pergudangan & Penyimpanan", "kbli": "KBLI 52101", "text": "Fasilitas penyimpanan komoditas, barang impor, dan distribusi regional." },
+      { "name": "Konstruksi Gedung", "kbli": "KBLI 41011 · 41012 · 41019", "text": "Konstruksi gedung hunian, perkantoran, dan komersial di Sumatera Utara." },
+      { "name": "Alat Transportasi Laut", "kbli": "KBLI 46592", "text": "Perdagangan besar alat transportasi laut, suku cadang, dan perlengkapan kapal." },
+      { "name": "Perdagangan Besar Pakaian", "kbli": "KBLI 46412", "text": "Distribusi pakaian dan garmen skala besar untuk retailer dan korporasi." },
+      { "name": "Perdagangan Atas Dasar Fee", "kbli": "KBLI 46100", "text": "Jasa perantara perdagangan berbasis komisi/kontrak dengan jaringan GMA yang luas." },
+      { "name": "General Trading & Impor", "kbli": "Multi-KBLI · API-P", "text": "Layanan impor dan sourcing global dengan akses kepabeanan dan API-P terintegrasi." }
+    ]
+  },
+  "sectors": {
+    "overline": "Sektor Industri",
+    "title": "Kami Hadir di Setiap Lini Industri",
+    "items": [
+      { "title": "Industri Maritim & Kapal", "sub": "Pembangunan, Reparasi & Perlengkapan Laut", "cat": "KBLI 30111 · 33151 · 46592" },
+      { "title": "Perdagangan Komoditas", "sub": "Agrikultur & Pangan", "cat": "KBLI 46202 · 46209 · 46319" },
+      { "title": "Pergudangan & Logistik", "sub": "Penyimpanan & Distribusi", "cat": "KBLI 52101" },
+      { "title": "Konstruksi Gedung", "sub": "Hunian, Kantor & Komersial", "cat": "KBLI 41011 · 41012 · 41019" },
+      { "title": "Pakaian & General Trading", "sub": "Grosir & Jasa Perantara", "cat": "KBLI 46412 · 46100" }
+    ]
+  },
+  "why": {
+    "overline": "Keunggulan Kami",
+    "title": "Mengapa GMA Adalah Pilihan Utama Anda?",
+    "items": [
+      { "title": "Legalitas Lengkap & Terverifikasi", "text": "NIB aktif OSS RI dengan API-P impor, akses kepabeanan DJBC, dan BPJS aktif — seluruh dokumen legal siap untuk aktivitas bisnis lintas negara." },
+      { "title": "Jaringan Strategis Belawan–Kualanamu", "text": "Beroperasi di koridor paling strategis Sumatera Utara: Pelabuhan Belawan untuk jalur laut dan Bandara Kualanamu untuk kargo udara." },
+      { "title": "Layanan One-Stop Terintegrasi", "text": "Trading, pergudangan, maritim, dan konstruksi dalam satu ekosistem. Tidak perlu koordinasi dengan banyak vendor." },
+      { "title": "Keahlian Komoditas Sumatera", "text": "Pemahaman mendalam komoditas Sumatera: CPO, karet, buah tropis, hasil laut — kami tahu harga pasar dan jalur distribusi terbaik." },
+      { "title": "Respons Cepat & Profesional", "text": "Tim berpengalaman dengan komitmen respons maksimal 1×24 jam. Kepercayaan, ketepatan waktu, dan hasil terukur adalah prioritas kami." },
+      { "title": "Fleksibel untuk Semua Skala", "text": "Dari UMKM hingga korporasi besar — kapasitas, harga, dan layanan kami sesuaikan dengan kebutuhan spesifik bisnis Anda." }
+    ]
+  },
+  "blog": {
+    "overline": "Artikel & Insight",
+    "title": "Update Terkini dari GMA",
+    "viewAll": "Lihat Semua",
+    "readMore": "Baca Selengkapnya",
+    "backToBlog": "Kembali ke Blog",
+    "loading": "Memuat artikel...",
+    "noPosts": "Belum ada artikel.",
+    "by": "Oleh"
+  },
+  "faq": {
+    "overline": "FAQ",
+    "title": "Pertanyaan yang Sering Diajukan",
+    "items": [
+      { "q": "Apa saja layanan utama PT. Geya Mora Agung?", "a": "GMA beroperasi di 5 sektor: perdagangan besar komoditas agrikultur, industri pembangunan & reparasi kapal, pergudangan dan logistik, konstruksi gedung, serta perdagangan alat transportasi laut. Total 12 KBLI aktif terdaftar di OSS RI." },
+      { "q": "Apakah GMA bisa menangani kebutuhan impor?", "a": "Ya. NIB GMA berlaku sebagai API-P dan dilengkapi hak akses kepabeanan resmi dari DJBC. Kami siap membantu proses pengadaan barang impor sesuai regulasi yang berlaku." },
+      { "q": "Bagaimana cara memulai kerjasama dengan GMA?", "a": "Hubungi kami via WhatsApp atau email. Tim kami akan merespons dalam 1×24 jam dan menyiapkan proposal sesuai kebutuhan Anda." },
+      { "q": "Apakah GMA melayani di luar wilayah Medan?", "a": "NIB GMA berlaku di seluruh Republik Indonesia. Untuk perdagangan dan logistik, kami menjangkau mitra di seluruh Sumatera, Jawa, dan kepulauan Indonesia. Layanan ekspor via Pelabuhan Belawan." },
+      { "q": "Apa yang membedakan GMA dari trading company biasa?", "a": "GMA adalah grup terintegrasi yang menggabungkan trading, maritim, pergudangan, dan konstruksi. Satu titik kontak untuk semua kebutuhan bisnis Anda — efisien dan terstruktur." },
+      { "q": "Apakah ada minimum order?", "a": "Tidak ada minimum order kaku. Kami melayani dari skala UMKM hingga korporasi besar. Setiap kebutuhan dikaji untuk skema kerjasama yang paling menguntungkan kedua pihak." }
+    ]
+  },
+  "contact": {
+    "overline": "Siap Berdiskusi?",
+    "title": "Mari Berdiskusi Bisnis",
+    "desc": "Tim GMA siap merespons pertanyaan dan kebutuhan bisnis Anda. Konsultasi awal gratis, tanpa komitmen.",
+    "form": {
+      "name": "Nama Lengkap",
+      "email": "Alamat Email",
+      "phone": "No. Telepon",
+      "company": "Perusahaan (opsional)",
+      "subject": "Subjek",
+      "message": "Pesan Anda",
+      "submit": "Kirim Pesan",
+      "sending": "Mengirim...",
+      "success": "Terima kasih! Pesan Anda telah terkirim.",
+      "error": "Gagal mengirim pesan. Coba lagi."
+    },
+    "phoneLabel": "Telepon / WhatsApp",
+    "emailLabel": "Email Resmi",
+    "addressLabel": "Alamat Kantor",
+    "address": "Jl. Bambu No. 18H, Gaharu, Medan Timur 20235",
+    "whatsapp": "WhatsApp Sekarang",
+    "sendEmail": "Kirim Email",
+    "mapTitle": "Lokasi Kantor"
+  },
+  "cta": {
+    "eyebrow": "Mulai Kerjasama Hari Ini",
+    "title": "Jadikan GMA Mitra Anda",
+    "desc": "Dari perdagangan komoditas hingga konstruksi gedung — satu kontak, satu mitra, semua solusi bisnis di Sumatera Utara."
+  },
+  "footer": {
+    "tagline": "Integrated Trading, Maritime & Construction Group di Sumatera Utara.",
+    "navTitle": "Navigasi",
+    "legalTitle": "Legalitas",
+    "contactTitle": "Kontak",
+    "rights": "All rights reserved.",
+    "nib": "NIB 0711240094152",
+    "oss": "OSS Verified",
+    "apip": "API-P Active",
+    "pmdn": "PMDN Registered"
+  },
+  "admin": {
+    "title": "Panel Admin",
+    "login": {
+      "heading": "Masuk sebagai Admin",
+      "sub": "Kelola konten blog dan pesan kontak.",
+      "email": "Email",
+      "password": "Kata Sandi",
+      "submit": "Masuk",
+      "submitting": "Memproses...",
+      "error": "Login gagal. Periksa kredensial Anda."
+    },
+    "dashboard": {
+      "welcome": "Selamat datang",
+      "logout": "Keluar",
+      "navBlog": "Blog",
+      "navContacts": "Pesan Kontak",
+      "backToSite": "Ke Beranda"
+    },
+    "blog": {
+      "heading": "Kelola Blog",
+      "new": "Artikel Baru",
+      "edit": "Edit Artikel",
+      "titleId": "Judul (ID)",
+      "titleEn": "Judul (EN)",
+      "excerptId": "Ringkasan (ID)",
+      "excerptEn": "Ringkasan (EN)",
+      "contentId": "Konten (ID)",
+      "contentEn": "Konten (EN)",
+      "categoryId": "Kategori (ID)",
+      "categoryEn": "Kategori (EN)",
+      "image": "URL Gambar",
+      "author": "Penulis",
+      "published": "Diterbitkan",
+      "save": "Simpan",
+      "cancel": "Batal",
+      "delete": "Hapus",
+      "confirmDelete": "Yakin ingin menghapus artikel ini?"
+    },
+    "contacts": {
+      "heading": "Pesan Masuk",
+      "name": "Nama",
+      "email": "Email",
+      "subject": "Subjek",
+      "date": "Tanggal",
+      "actions": "Aksi",
+      "view": "Lihat",
+      "delete": "Hapus",
+      "empty": "Belum ada pesan masuk."
+    }
+  }
+}

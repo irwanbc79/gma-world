@@ -1,0 +1,197 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "sectors": "Sectors",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "admin": "Admin",
+    "langLabel": "Language"
+  },
+  "hero": {
+    "location": "Medan, North Sumatra — Est. 2024",
+    "badge": "NIB 0711240094152 · PMDN · OSS Verified · API-P Active",
+    "title1": "Integrated",
+    "title2": "Trading &",
+    "title3": "Maritime Group",
+    "desc": "PT. Geya Mora Agung — one partner for large-scale commodity trading, shipbuilding & repair, warehousing, and building construction across North Sumatra.",
+    "cta1": "Start Partnership",
+    "cta2": "Explore Services",
+    "stats": {
+      "kbli": "Business Fields",
+      "sectors": "Industry Sectors",
+      "contact": "Integrated Contact"
+    },
+    "portBelawan": "Belawan Port",
+    "airportKNO": "Kualanamu Airport"
+  },
+  "about": {
+    "overline": "About The Company",
+    "title": "One Entity, Five Industry Strengths",
+    "p1": "PT. Geya Mora Agung operates at the heart of the Belawan trading corridor and Malacca Strait. We integrate commodity trading, maritime logistics, warehousing, shipbuilding, and construction into one solid, fully-licensed business entity.",
+    "p2": "Strategically located in Gaharu, East Medan — backed by complete OSS legality including API-P and DJBC customs access for import-export activities.",
+    "checks": [
+      "Full OSS Legal Compliance",
+      "Active Import API-P",
+      "DJBC Customs Access",
+      "Registered PMDN",
+      "12 Active KBLI Codes",
+      "BPJS Labor Coverage"
+    ],
+    "cta": "Let's Talk",
+    "yearFounded": "Year Founded",
+    "nibLabel": "Business Registration Number"
+  },
+  "services": {
+    "overline": "Core Services",
+    "title": "Comprehensive Portfolio",
+    "desc": "From agricultural commodities to maritime infrastructure — GMA is the integrated partner for all business needs across North Sumatra.",
+    "items": [
+      { "name": "Large-Scale Commodity Trading", "kbli": "KBLI 46202 · 46209 · 46319", "text": "Oil-bearing fruits, agricultural products, animal products, and food commodities for local and export markets." },
+      { "name": "Shipbuilding & Fleet Repair", "kbli": "KBLI 30111 · 33151", "text": "Construction of vessels, boats, and floating structures. Professional fleet repair and maintenance." },
+      { "name": "Warehousing & Storage", "kbli": "KBLI 52101", "text": "Storage facilities for commodities, imported goods, and regional distribution." },
+      { "name": "Building Construction", "kbli": "KBLI 41011 · 41012 · 41019", "text": "Residential, office, and commercial building construction across North Sumatra." },
+      { "name": "Marine Transport Equipment", "kbli": "KBLI 46592", "text": "Wholesale marine transport equipment, spare parts, and vessel accessories." },
+      { "name": "Wholesale Garment Trading", "kbli": "KBLI 46412", "text": "Large-scale clothing and garment distribution for retailers and corporations." },
+      { "name": "Commission-Based Trading", "kbli": "KBLI 46100", "text": "Fee/contract trading brokerage leveraging GMA's extensive business network." },
+      { "name": "General Trading & Import", "kbli": "Multi-KBLI · API-P", "text": "Global import and sourcing with integrated customs access and API-P licensing." }
+    ]
+  },
+  "sectors": {
+    "overline": "Industry Sectors",
+    "title": "Present Across Every Industry Line",
+    "items": [
+      { "title": "Maritime & Shipbuilding", "sub": "Build, Repair & Marine Equipment", "cat": "KBLI 30111 · 33151 · 46592" },
+      { "title": "Commodity Trading", "sub": "Agriculture & Food", "cat": "KBLI 46202 · 46209 · 46319" },
+      { "title": "Warehousing & Logistics", "sub": "Storage & Distribution", "cat": "KBLI 52101" },
+      { "title": "Building Construction", "sub": "Residential, Office & Commercial", "cat": "KBLI 41011 · 41012 · 41019" },
+      { "title": "Garment & General Trading", "sub": "Wholesale & Brokerage", "cat": "KBLI 46412 · 46100" }
+    ]
+  },
+  "why": {
+    "overline": "Why Choose Us",
+    "title": "Why GMA Is Your Premier Choice?",
+    "items": [
+      { "title": "Complete & Verified Legality", "text": "Active OSS RI NIB with import API-P, DJBC customs access, and active BPJS — all legal documents ready for cross-border business activities." },
+      { "title": "Strategic Belawan–Kualanamu Network", "text": "Operating at North Sumatra's most strategic corridor: Belawan Port for sea routes and Kualanamu Airport for air cargo." },
+      { "title": "Integrated One-Stop Services", "text": "Trading, warehousing, maritime, and construction under one ecosystem. No need to coordinate with multiple vendors." },
+      { "title": "Sumatra Commodity Expertise", "text": "Deep knowledge of Sumatra's commodities: CPO, rubber, tropical fruits, marine products — we know the market prices and best distribution channels." },
+      { "title": "Fast Response & Professional", "text": "Experienced team committed to max 24-hour response. Trust, punctuality, and measurable results are our top priorities." },
+      { "title": "Flexible for All Business Scales", "text": "From SMEs to large corporations — our capacity, pricing, and services are tailored to your specific business needs." }
+    ]
+  },
+  "blog": {
+    "overline": "Articles & Insights",
+    "title": "Latest Updates from GMA",
+    "viewAll": "View All",
+    "readMore": "Read More",
+    "backToBlog": "Back to Blog",
+    "loading": "Loading articles...",
+    "noPosts": "No posts yet.",
+    "by": "By"
+  },
+  "faq": {
+    "overline": "FAQ",
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "q": "What are PT. Geya Mora Agung's main services?", "a": "GMA operates in 5 sectors: agricultural commodity trading, shipbuilding & repair, warehousing & logistics, building construction, and marine transport equipment trading. 12 active KBLI codes registered in OSS RI." },
+      { "q": "Can GMA handle import requirements?", "a": "Yes. GMA's NIB serves as API-P with official DJBC customs access rights. We assist with import procurement processes in full compliance with applicable regulations." },
+      { "q": "How do I start a partnership with GMA?", "a": "Contact us via WhatsApp or email. Our team will respond within 24 hours and prepare a proposal tailored to your requirements." },
+      { "q": "Does GMA serve areas outside of Medan?", "a": "GMA's NIB is valid across Indonesia. For trading and logistics, we reach partners throughout Sumatra, Java, and the Indonesian archipelago. Export services via Belawan Port." },
+      { "q": "What differentiates GMA from ordinary trading companies?", "a": "GMA is an integrated group combining trading, maritime, warehousing, and construction. One point of contact for all your business needs — efficient and structured." },
+      { "q": "Is there a minimum order requirement?", "a": "No rigid minimum order. We serve from SME to large corporate scale. Each need is assessed to determine the most mutually beneficial cooperation scheme." }
+    ]
+  },
+  "contact": {
+    "overline": "Ready to Talk?",
+    "title": "Let's Discuss Business",
+    "desc": "The GMA team is ready to address your business questions and needs. Free initial consultation, no commitment required.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "company": "Company (optional)",
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thank you! Your message has been sent.",
+      "error": "Failed to send message. Please try again."
+    },
+    "phoneLabel": "Phone / WhatsApp",
+    "emailLabel": "Official Email",
+    "addressLabel": "Office Address",
+    "address": "Jl. Bambu No. 18H, Gaharu, East Medan 20235",
+    "whatsapp": "WhatsApp Now",
+    "sendEmail": "Send Email",
+    "mapTitle": "Office Location"
+  },
+  "cta": {
+    "eyebrow": "Start Your Partnership Today",
+    "title": "Make GMA Your Partner",
+    "desc": "From commodity trading to building construction — one contact, one partner, all business solutions across North Sumatra."
+  },
+  "footer": {
+    "tagline": "Integrated Trading, Maritime & Construction Group in North Sumatra.",
+    "navTitle": "Navigation",
+    "legalTitle": "Legal",
+    "contactTitle": "Contact",
+    "rights": "All rights reserved.",
+    "nib": "NIB 0711240094152",
+    "oss": "OSS Verified",
+    "apip": "API-P Active",
+    "pmdn": "PMDN Registered"
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "login": {
+      "heading": "Sign in as Admin",
+      "sub": "Manage blog content and contact messages.",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Sign In",
+      "submitting": "Signing in...",
+      "error": "Login failed. Check your credentials."
+    },
+    "dashboard": {
+      "welcome": "Welcome",
+      "logout": "Logout",
+      "navBlog": "Blog",
+      "navContacts": "Contact Messages",
+      "backToSite": "Back to Site"
+    },
+    "blog": {
+      "heading": "Manage Blog",
+      "new": "New Post",
+      "edit": "Edit Post",
+      "titleId": "Title (ID)",
+      "titleEn": "Title (EN)",
+      "excerptId": "Excerpt (ID)",
+      "excerptEn": "Excerpt (EN)",
+      "contentId": "Content (ID)",
+      "contentEn": "Content (EN)",
+      "categoryId": "Category (ID)",
+      "categoryEn": "Category (EN)",
+      "image": "Image URL",
+      "author": "Author",
+      "published": "Published",
+      "save": "Save",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "confirmDelete": "Are you sure you want to delete this post?"
+    },
+    "contacts": {
+      "heading": "Inbox",
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "date": "Date",
+      "actions": "Actions",
+      "view": "View",
+      "delete": "Delete",
+      "empty": "No messages yet."
+    }
+  }
+}
