@@ -1,0 +1,31 @@
+{
+  "summary": "Full end-to-end Playwright UI test of GMA Landing on the public preview URL. 21 distinct checks across home/nav/i18n/theme/contact/blog/admin-auth/admin-CRUD/mobile. All critical user flows PASS. Single false-negative on hero-text comparison (hero title is identical in ID and EN locales by design; lang switch verified via localStorage persistence, reload persistence, nav label changes visible in screenshot, and ID contact-toast text 'Terima kasih! Pesan Anda telah terkirim.').",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [],
+    "design_issues": [
+      {"screen": "Home — hero", "issues": ["Hero H1 text appears to render slightly merged ('IntegratedTrading &Maritime Group') when read via text_content; likely due to responsive line-break spans without surrounding spaces. Visually fine but screen-readers may concatenate words. Consider adding explicit spaces or aria-label."]}
+    ]
+  },
+  "test_report_links": ["/app/backend/tests/test_gma_backend.py", "/app/test_reports/pytest/pytest_results.xml"],
+  "action_items": [
+    "(Optional) Ensure hero H1 words are space-separated for a11y (accessibility reads 'IntegratedTrading &Maritime Group' without gaps).",
+    "(Optional) Expose [data-testid=why-card-*] and [data-testid=blog-preview-card-*] on home sections so future automated assertions can count cards directly. Visible in UI but not testable by testid."
+  ],
+  "critical_code_review_comments": [
+    "AdminLogin.jsx prefills email with 'admin@gma.co.id' — convenient for demo but should be removed/flagged for production to avoid hinting at valid admin accounts.",
+    "api interceptor attaches Bearer token from localStorage (gma-token); works alongside httpOnly cookie. Fine for preview; document that cookie path is the canonical auth and localStorage is cross-origin fallback only.",
+    "Home page renders why-us and blog-preview cards without data-testid attributes on individual cards; counted 0 via testid probe though visible in UI. Add them for deterministic E2E coverage.",
+    "AdminDashboard BlogEditor has required=false for 'image' visually, but it is marked required in code. Keep consistent: either allow empty image or show required asterisk in the label.",
+    "Contact form success toast renders in the current UI locale (ID) even if user just switched EN→ID mid-session — works because onSubmit pulls t() live. Good."
+  ],
+  "updated_files": [],
+  "success_rate": {"backend": "100% (prev iteration)", "frontend": "100% on critical flows (21/21 after dismissing the false-negative text-equality check on a locale-identical title)"},
+  "test_credentials": "admin@gma.co.id / gma-admin-2024 — verified working via UI login flow",
+  "seed_data_creation": "Created and deleted ephemeral TEST_POST_* blog entry and a TEST User contact submission during admin CRUD flow. Blog entry deleted in-flow; contact submission remains in DB (harmless, prefixed 'TEST User').",
+  "retest_needed": false,
+  "main_agent_can_self_test": true,
+  "context_for_next_testing_agent": "Public URL: https://multi-lang-portal-4.preview.emergentagent.com. Full regression script is inline in /app/test_reports/iteration_2.json summary; pattern = goto → wait_for_selector('[data-testid=navbar]') → interact via data-testid. Console shows 401s on /api/auth/me on anonymous pages — benign (AuthProvider probes session). All data-testid selectors per review_request are present and functional.",
+  "rca of the issue": "No unresolved issues. The single failed assertion ('lang_switch_en') was a test-design artifact: the hero title string is identical in both locales, so comparing textContent pre/post toggle cannot detect the switch. Language switching itself works correctly (localStorage key updates, reload persists, nav labels change between 'TENTANG KAMI / LAYANAN / SEKTOR / BLOG / FAQ / HUBUNGI KAMI' and their English equivalents as observed in the mobile screenshot)."
+}
