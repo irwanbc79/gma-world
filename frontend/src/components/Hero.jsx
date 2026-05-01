@@ -134,7 +134,7 @@ export default function Hero() {
 
           <div className="absolute bottom-5 left-5 right-5 bg-[hsl(var(--primary))]/95 backdrop-blur-md text-white p-5 grid grid-cols-2 gap-4 border-l-4 border-[hsl(var(--accent))]">
             <div>
-              <div className="font-display text-2xl font-semibold">BICT</div>
+              <div className="font-display text-2xl font-semibold">PELABUHAN</div>
               <div className="text-[10px] uppercase tracking-widest opacity-80 mt-0.5">
                 {t('hero.portBelawan')}
               </div>
