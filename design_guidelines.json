@@ -1,0 +1,127 @@
+{
+  "project_name": "PT. Geya Mora Agung (GMA) Landing Page & Admin",
+  "theme_and_archetype": {
+    "theme": "Hybrid Light/Dark Mode (Default Light)",
+    "archetype": "Archetype 4: Swiss & High-Contrast (adapted for Corporate Maritime/Industrial)",
+    "reasoning": "GMA is an integrated maritime, trading, and construction group. The design must convey extreme reliability, immense scale, and institutional authority. Archetype 4 provides the structural rigidity and clarity needed for B2B trust, paired with deep maritime blues and industrial safety orange."
+  },
+  "colors": {
+    "light": {
+      "background": "#FFFFFF",
+      "surface": "#F8FAFC",
+      "surface_alt": "#F1F5F9",
+      "primary": "#0A1128",
+      "primary_foreground": "#FFFFFF",
+      "accent": "#FF5A1F",
+      "accent_foreground": "#FFFFFF",
+      "text_main": "#0F172A",
+      "text_muted": "#64748B",
+      "border": "#E2E8F0"
+    },
+    "dark": {
+      "background": "#050914",
+      "surface": "#0B1221",
+      "surface_alt": "#131D35",
+      "primary": "#F8FAFC",
+      "primary_foreground": "#050914",
+      "accent": "#FF5A1F",
+      "accent_foreground": "#FFFFFF",
+      "text_main": "#F8FAFC",
+      "text_muted": "#94A3B8",
+      "border": "#1E293B"
+    },
+    "guidelines": "Use the accent color (#FF5A1F) strictly for CTA buttons, hover states, and critical notification badges. Never use it as a large background fill. The primary tone should dominate the visual space to establish maritime authority."
+  },
+  "typography": {
+    "fonts": {
+      "headings": "Clash Display, sans-serif",
+      "body": "IBM Plex Sans, sans-serif",
+      "monospace": "JetBrains Mono, monospace"
+    },
+    "rules": {
+      "h1": "text-5xl md:text-6xl lg:text-7xl font-semibold tracking-tighter leading-none",
+      "h2": "text-4xl md:text-5xl font-medium tracking-tight leading-tight",
+      "h3": "text-2xl md:text-3xl font-medium tracking-tight",
+      "body": "text-base md:text-lg leading-relaxed font-normal",
+      "overline": "text-xs font-bold uppercase tracking-[0.2em] text-accent",
+      "general": "Do not use Inter or Roboto. Emphasize optical alignment. Headings must have strong tension with tight letter-spacing."
+    }
+  },
+  "spacing_and_layout": {
+    "scale": "Generous Spacing Philosophy (Tailwind Scale)",
+    "section_padding": "py-24 md:py-32",
+    "container": "max-w-7xl mx-auto px-6 md:px-12",
+    "grids": {
+      "services": "Bento Grid: grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6. Use sharp geometric layouts. No soft shadows. Use 1px borders.",
+      "sectors": "Masonry Layout: columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6. Images must stretch full width of their column.",
+      "why_us": "Control Room Grid: grid-cols-1 md:grid-cols-3 gap-8. High density, data-correlation vibe."
+    },
+    "surfaces": {
+      "cards": "Flat background, 1px subtle border (border-slate-200/dark:border-slate-800), zero border-radius (rounded-none). Hover: -translate-y-1, border-accent.",
+      "header": "Crystal Glassmorphism: backdrop-blur-xl bg-white/80 (light) or bg-[#050914]/80 (dark). 1px delicate bottom border.",
+      "footer": "Contrast Shift: If light mode, footer must be solid dark (#0A1128). py-24."
+    }
+  },
+  "components": {
+    "navigation": {
+      "style": "Sticky at top (z-50). Must include actual circular SVG flags for language switcher (IND/ENG), no emojis.",
+      "behavior": "Scroll-shrink effect: py-6 shrinks to py-3 on scroll. Smooth transition."
+    },
+    "buttons": {
+      "primary": "bg-accent text-white rounded-none px-8 py-4 font-semibold uppercase tracking-wider hover:bg-accent/90 transition-colors",
+      "secondary": "bg-transparent text-primary border-2 border-primary rounded-none px-8 py-4 font-semibold hover:bg-primary hover:text-white transition-colors"
+    },
+    "language_switcher": {
+      "design": "Toggle or dropdown using pure SVG circular flags (🇮🇩 for ID, 🇬🇧 for EN). Must look premium, align right next to dark mode toggle."
+    },
+    "forms": {
+      "inputs": "Shadcn-based but strictly sharp edges (rounded-none). Focus state: ring-2 ring-accent border-transparent."
+    },
+    "admin_panel": {
+      "layout": "Sidebar (w-64) + Content area. Use Shadcn tables for Blog/Contacts. Strict, clean white/slate-50 background.",
+      "vibe": "Functional beauty. High data density."
+    }
+  },
+  "animations_and_interactions": {
+    "hero": "Parallax effect on the background Belawan port image. Elements fade up on load.",
+    "scroll_reveal": "Use Framer Motion. 'whileInView' with opacity 0 to 1, y: 20 to 0. Stagger children in grids.",
+    "ticker": "Use react-fast-marquee for a subtle, slow 'Editorial Ribbon' of client/partner logos or service keywords.",
+    "hover_states": "All interactive elements must explicitly define hover colors to ensure high contrast."
+  },
+  "media": {
+    "urls": {
+      "hero_belawan_port": "https://images.unsplash.com/photo-1632517706646-ed11355d0392?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDV8MHwxfHNlYXJjaHwxfHxzaGlwcGluZyUyMGNvbnRhaW5lciUyMHBvcnQlMjBvY2VhbnxlbnwwfHx8fDE3Nzc2MDc3NTJ8MA&ixlib=rb-4.1.0&q=85",
+      "about_corporate": "https://images.unsplash.com/photo-1771147372627-7fffe86cf00b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBvZmZpY2UlMjBtZWV0aW5nJTIwY29ycG9yYXRlfGVufDB8fHx8MTc3NzYwNzc2Mnww&ixlib=rb-4.1.0&q=85",
+      "service_commodity_cpo": "https://images.unsplash.com/photo-1772301057499-8dc54c16524e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwyfHxwYWxtJTIwb2lsJTIwYWdyaWN1bHR1cmUlMjBzdW5yaXNlfGVufDB8fHx8MTc3NzYwNzc2Mnww&ixlib=rb-4.1.0&q=85",
+      "service_shipbuilding": "https://images.unsplash.com/photo-1703977883249-d959f2b0c1ae?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDV8MHwxfHNlYXJjaHwzfHxzaGlwcGluZyUyMGNvbnRhaW5lciUyMHBvcnQlMjBvY2VhbnxlbnwwfHx8fDE3Nzc2MDc3NTJ8MA&ixlib=rb-4.1.0&q=85",
+      "service_warehousing": "https://images.unsplash.com/photo-1777269390493-8c9103d4d600?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzV8MHwxfHNlYXJjaHwzfHx3YXJlaG91c2UlMjBsb2dpc3RpY3MlMjBpbmR1c3RyeXxlbnwwfHx8fDE3Nzc2MDc3NTJ8MA&ixlib=rb-4.1.0&q=85",
+      "service_construction": "https://images.unsplash.com/photo-1756887821598-730ab13ae171?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1Mjh8MHwxfHNlYXJjaHwxfHxpbmRvbmVzaWElMjBjb25zdHJ1Y3Rpb24lMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzc3NjA3NzUyfDA&ixlib=rb-4.1.0&q=85",
+      "sectors_masonry_1": "https://images.unsplash.com/photo-1620306677888-10e367e6293d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDV8MHwxfHNlYXJjaHwyfHxzaGlwcGluZyUyMGNvbnRhaW5lciUyMHBvcnQlMjBvY2VhbnxlbnwwfHx8fDE3Nzc2MDc3NTJ8MA&ixlib=rb-4.1.0&q=85",
+      "sectors_masonry_2": "https://images.unsplash.com/photo-1761195696590-3490ea770aa1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzV8MHwxfHNlYXJjaHwyfHx3YXJlaG91c2UlMjBsb2dpc3RpY3MlMjBpbmR1c3RyeXxlbnwwfHx8fDE3Nzc2MDc3NTJ8MA&ixlib=rb-4.1.0&q=85",
+      "sectors_masonry_3": "https://images.unsplash.com/photo-1731018292981-6d3bbb1b0a62?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1Mjh8MHwxfHNlYXJjaHwyfHxpbmRvbmVzaWElMjBjb25zdHJ1Y3Rpb24lMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzc3NjA3NzUyfDA&ixlib=rb-4.1.0&q=85"
+    },
+    "treatment": {
+      "hero_overlay": "bg-primary/60 gradient to transparent to ensure text readability.",
+      "general": "Images should have minimal filtering to convey authenticity. Use max-h-[80vh] for hero on mobile to prevent extreme stretching."
+    }
+  },
+  "accessibility_and_testing": {
+    "contrast": "Ensure all text over images or dark backgrounds passes APCA and WCAG AA standard (4.5:1).",
+    "data_testid": "Mandatory on all interactive elements. Example: data-testid='hero-cta-button', data-testid='lang-switcher-ind', data-testid='contact-form-submit'.",
+    "aria": "Add aria-labels to the Language Switcher, Dark Mode Toggle, and all social links."
+  },
+  "seo_and_meta": {
+    "meta_tags": "Include bilingual meta titles/descriptions. Primary keyword: PT Geya Mora Agung, Integrated Maritime Trading Medan.",
+    "schema_org": "Implement JSON-LD for Organization (GMA), LocalBusiness (Jl. Bambu 18H location), and BlogPosting for the dynamic articles."
+  },
+  "instructions_to_main_agent": [
+    "Install specific fonts: Clash Display and IBM Plex Sans. Use next/font or standard imports.",
+    "Install dependencies: framer-motion, react-fast-marquee, lucide-react, react-i18next (or similar for translation), next-themes (for dark mode).",
+    "Develop the App using .js/.jsx. Do not use TS.",
+    "Set up pure SVG icons for the language flags. Ensure they are circular and have no bounding box distortions.",
+    "Embed Google Map for coordinates matching 'Jl. Bambu 18H, Gaharu, Medan Timur' in the contact section.",
+    "Develop a functional mock for the Admin Panel showing a dashboard with Sidebar, Blog Post CRUD, and Contact Submissions table.",
+    "For Services section, implement the 8 KBLI-coded items: Commodity Trading, Shipbuilding, Warehousing, Construction, Marine Equipment, Garment, Brokerage, General Trading.",
+    "Strictly follow the color tokens and zero border-radius rule for a sharp, industrial aesthetic."
+  ]
+}
