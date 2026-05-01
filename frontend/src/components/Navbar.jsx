@@ -54,12 +54,17 @@ export default function Navbar() {
         <Link
           to="/"
           data-testid="nav-logo"
-          className="flex items-center gap-3 font-display font-semibold text-xl tracking-tight"
+          className="flex items-center gap-3"
+          aria-label="PT. Geya Mora Agung"
         >
-          <span className="w-9 h-9 bg-[hsl(var(--accent))] text-white flex items-center justify-center font-bold">
-            G
-          </span>
-          <span className="hidden sm:inline">GMA</span>
+          <div className="bg-white px-2 py-1.5 shadow-sm border border-black/5 flex items-center justify-center h-10 md:h-11">
+            <img
+              src="/logo-gma.jpeg"
+              alt="PT. Geya Mora Agung"
+              className="h-full w-auto object-contain"
+              style={{ maxWidth: '110px' }}
+            />
+          </div>
         </Link>
 
         <nav className="hidden lg:flex items-center gap-7">

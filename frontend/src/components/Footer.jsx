@@ -9,11 +9,14 @@ export default function Footer() {
     <footer className="bg-[#020618] text-white/80 pt-20 pb-10" data-testid="footer">
       <div className="gma-container grid md:grid-cols-12 gap-10">
         <div className="md:col-span-5">
-          <Link to="/" className="flex items-center gap-3 mb-6">
-            <span className="w-10 h-10 bg-[hsl(var(--accent))] text-white flex items-center justify-center font-bold font-display text-lg">
-              G
-            </span>
-            <span className="font-display text-2xl text-white font-semibold">{COMPANY.name}</span>
+          <Link to="/" className="inline-flex items-center mb-6" aria-label="PT. Geya Mora Agung">
+            <div className="bg-white p-3 shadow-sm">
+              <img
+                src="/logo-gma.jpeg"
+                alt="PT. Geya Mora Agung"
+                className="h-14 md:h-16 w-auto object-contain"
+              />
+            </div>
           </Link>
           <p className="text-sm opacity-70 leading-relaxed max-w-md mb-6">{t('footer.tagline')}</p>
           <div className="flex flex-wrap gap-2">

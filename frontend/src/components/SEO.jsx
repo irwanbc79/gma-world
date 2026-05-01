@@ -7,15 +7,15 @@ export default function SEO({ title, description, image, type = 'website', lang 
   const desc =
     description ||
     'PT. Geya Mora Agung — Mitra terpercaya perdagangan besar, maritim, pergudangan & konstruksi di Medan, Sumatera Utara.';
-  const img = image || 'https://images.unsplash.com/photo-1577416412292-747c6607f055?auto=format&fit=crop&w=1200&q=80';
+  const img = image || (typeof window !== 'undefined' ? `${window.location.origin}/logo-gma.jpeg` : '/logo-gma.jpeg');
 
   const orgSchema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: COMPANY.name,
     alternateName: 'GMA',
-    url: 'https://geyamoraagung.co.id',
-    logo: 'https://geyamoraagung.co.id/logo.png',
+    url: typeof window !== 'undefined' ? window.location.origin : 'https://geyamoraagung.co.id',
+    logo: typeof window !== 'undefined' ? `${window.location.origin}/logo-gma.jpeg` : '/logo-gma.jpeg',
     telephone: COMPANY.phone,
     email: COMPANY.email,
     address: {

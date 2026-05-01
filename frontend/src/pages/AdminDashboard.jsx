@@ -22,8 +22,10 @@ export default function AdminDashboard() {
         {/* Sidebar */}
         <aside className="w-64 hidden md:flex flex-col bg-[hsl(var(--primary))] text-white fixed inset-y-0 left-0 z-40">
           <div className="p-6 border-b border-white/10">
-            <div className="font-display text-2xl font-semibold">GMA</div>
-            <div className="text-[10px] uppercase tracking-widest opacity-60 mt-1">{t('admin.title')}</div>
+            <div className="bg-white p-2 inline-block">
+              <img src="/logo-gma.jpeg" alt="GMA" className="h-10 w-auto object-contain" />
+            </div>
+            <div className="text-[10px] uppercase tracking-widest opacity-60 mt-3">{t('admin.title')}</div>
           </div>
           <nav className="p-4 flex-1">
             <button
