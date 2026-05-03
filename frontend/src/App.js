@@ -8,6 +8,8 @@ import { ThemeProvider } from './lib/theme';
 import { AuthProvider } from './lib/auth';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import FloatingWA from './components/FloatingWA';
+import ScrollToTopButton from './components/ScrollToTopButton';
 import Home from './pages/Home';
 import BlogList from './pages/BlogList';
 import BlogDetail from './pages/BlogDetail';
@@ -50,6 +52,8 @@ function App() {
           <BrowserRouter>
             <ScrollToTop />
             <Shell />
+            <FloatingWA />
+            <ScrollToTopButton />
             <Toaster position="top-right" richColors />
           </BrowserRouter>
         </AuthProvider>
