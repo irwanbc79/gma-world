@@ -1,18 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Calendar } from 'lucide-react';
-import { api } from '../lib/config';
+import { blogPosts } from '../data/blogPosts';
 
 export default function BlogPreview() {
   const { t, i18n } = useTranslation();
-  const [posts, setPosts] = useState([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    api.get('/blog?limit=3').then((r) => setPosts(r.data.slice(0, 3))).finally(() => setLoading(false));
-  }, []);
+  const posts = blogPosts.slice(0, 3);
 
   const lang = i18n.language === 'en' ? 'en' : 'id';
 
@@ -29,12 +24,7 @@ export default function BlogPreview() {
           </Link>
         </div>
 
-        {loading ? (
-          <div className="text-center py-20 text-[hsl(var(--muted-foreground))]">{t('blog.loading')}</div>
-        ) : posts.length === 0 ? (
-          <div className="text-center py-20 text-[hsl(var(--muted-foreground))]">{t('blog.noPosts')}</div>
-        ) : (
-          <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-3 gap-6">
             {posts.map((p, i) => (
               <motion.article
                 key={p.id}
@@ -82,7 +72,6 @@ export default function BlogPreview() {
               </motion.article>
             ))}
           </div>
-        )}
       </div>
     </section>
   );
